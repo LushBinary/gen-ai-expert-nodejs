@@ -1,0 +1,22 @@
+{
+  "name": "multimodal-ai-nodejs",
+  "version": "1.0.0",
+  "description": "A multi AI model portal backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "tsc --watch & nodemon --inspect dist/app.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
+    "eslint": "^8.57.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
